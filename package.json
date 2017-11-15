@@ -1,0 +1,30 @@
+{
+  "name": "nest-typescript-starter",
+  "version": "1.0.0",
+  "description": "Nest TypeScript starter repository",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
+    "start": "node index.js",
+    "start:watch": "nodemon",
+    "prestart:prod": "tsc",
+    "start:prod": "node dist/server.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "4.2.2",
+    "@nestjs/core": "4.2.2",
+    "@nestjs/microservices": "4.2.2",
+    "@nestjs/testing": "4.2.2",
+    "@nestjs/websockets": "4.2.2",
+    "redis": "2.8.0",
+    "reflect-metadata": "0.1.10",
+    "rxjs": "5.5.2",
+    "typescript": "2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.52",
+    "nodemon": "1.12.1",
+    "prettier": "1.8.2",
+    "ts-node": "3.3.0"
+  }
+}
