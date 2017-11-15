@@ -2,4 +2,6 @@
 
 Node.js + Nest.js + TypeScript + Swagger + Prettier.
 
-To start run `npm run start`.
+To start and watch for changes run `npm run watch`.
+
+Swagger documentation is available from /api-docs.json.
